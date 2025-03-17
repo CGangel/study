@@ -9,6 +9,11 @@ int main()
 {
     while (true)
     {
+        char b[13] = { 'H','e','l','l','o',',','W','o','r','l','d','!' };
+        cout << b << endl;               	//输出字符数组，遇到‘\0’结束
+
+
+
         int i, a[10];
         vector<int> inputOrder(10); // 记录输入顺序
         cout << "请输入10个整数:" << endl;
